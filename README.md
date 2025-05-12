@@ -8,16 +8,29 @@ A set of states
 - Transition probabilities and rewards
 - A policy defining actions taken in each state
 
-📁 Files and Descriptions:
+
+## 📁 Files and Descriptions:
 1. value_iteration.py
+
+
 Basic implementation of the Value Iteration algorithm using the default MDP configuration.
+
+
 States: Top, Rolling, Bottom
+
+
 Actions: Drive, Don’t Drive
+
+
 Goal: Find the optimal value function and policy by iteratively improving value estimates.
 
-2. value_iteration_with_changed_discount.py:
+# 2. value_iteration_with_changed_discount.py:
 Value Iteration with a modified discount factor (gamma = 0.75 instead of 0.9).
+
+
 Demonstrates how a lower discount factor causes the agent to focus more on immediate rewards.
+
+
 Observe changes in optimal policy and value convergence.
 
 3. value_iteration_with_changed_transition_probabilities.py:
