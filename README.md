@@ -15,61 +15,43 @@ A set of states
 
 Basic implementation of the Value Iteration algorithm using the default MDP configuration.
 
-
 States: Top, Rolling, Bottom
 
-
 Actions: Drive, Don’t Drive
-
 
 Goal: Find the optimal value function and policy by iteratively improving value estimates.
 
 2. value_iteration_with_changed_discount.py:
 
-
 Value Iteration with a modified discount factor (gamma = 0.75 instead of 0.9).
-
 
 Demonstrates how a lower discount factor causes the agent to focus more on immediate rewards.
 
-
 Observe changes in optimal policy and value convergence.
-
 
 3. value_iteration_with_changed_transition_probabilities.py:
 
-
 Value Iteration using altered transition probabilities to simulate a more uncertain environment.
-
 
 Helps to analyze how changes in system dynamics affect the optimal decision-making policy.
 
 
 4. value_iteration_with_changed_reward.py:
 
-
 Value Iteration with updated rewards—specifically increased reward for not driving when in the Bottom state.
-
 
 Illustrates how reward shaping influences the agent's behavior and policy structure.
 
-
-
 5. policy_iteration_with_deterministic_policy.py:
-
 
 Policy Iteration initialized with a deterministic policy where the agent never drives.
 
-
 Applies both Policy Evaluation and Policy Improvement steps.
-
 
 Tracks convergence to the optimal policy and value function.
 
 
-
 6. policy_iteration_with_stochastic_policy.py:
-
 
 Starts with a stochastic policy.
 
