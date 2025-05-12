@@ -1,12 +1,12 @@
-📈 Markov Decision Processes: Value and Policy Iteration
+## 📈 Markov Decision Processes: Value and Policy Iteration
 This repository contains various implementations of Value Iteration and Policy Iteration algorithms applied to a simple Markov Decision Process (MDP) with three states: Top, Rolling, and Bottom. Each file explores the effects of changing the environment, policies, or parameters like rewards and discount factors.
 
-🧠 What is an MDP?
+##🧠 What is an MDP?
 A Markov Decision Process is a mathematical framework used to model decision-making problems where outcomes are partly random and partly under the control of a decision-maker. It includes:
 A set of states
-A set of actions
-Transition probabilities and rewards
-A policy defining actions taken in each state
+- A set of actions
+- Transition probabilities and rewards
+- A policy defining actions taken in each state
 
 📁 Files and Descriptions:
 1. value_iteration.py
